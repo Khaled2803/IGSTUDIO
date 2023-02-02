@@ -11,7 +11,6 @@ body{
 .container {
   display: block;
   background: #080808;
-
 }
 
 header {
@@ -604,8 +603,146 @@ footer{
   font-size: 14px;
 }
 
-@media (max-width: 600px){
-  
+#check{
+  display: none;
+}
+
+.checkbtn svg{
+  display: none;
+  width: 30px;
+  height: auto;
+}
+
+@media (max-width: 858px){
+  .checkbtn svg{
+    display: flex;
+  }
+
+.checkbtn svg:checked .menu ul{
+  display: block;
+}
+
+  .menu ul {
+    display: none;
+  }
+
+  .section-1-text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .section-1-text{
+    width: auto;
+  }
+
+  .text-tittle h4{
+    text-align: center;
+  }
+
+  .email{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 100px;
+  }
+
+  .section-3-cards{
+    display: flex;
+    flex-direction: column;
+  }
+  .card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .card p{
+    text-align: center;
+  }
+
+  .card-img{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  #img-max{
+    width: 90%;
+  }
+
+  #img-min{
+    width: 90%;
+    height: auto;
+  }
+
+  .section-5-tittle{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 80px;
+  }
+
+  .section-5-cards{
+    display: flex;
+    flex-direction: column;
+  }
+
+  .section-6{
+    gap: 200px;
+  }
+
+  .cards-1{
+    gap: 80px;
+  }
+
+  .cards-1, .cards-2{
+    display: flex;
+    flex-direction: column;
+  }
+
+  .section-7{
+    display: flex;
+    flex-direction: column;
+  }
+
+  .section-8{
+    background-color: #474747;
+    padding: 50px;
+  }
+
+  .section-8-text{
+    padding: 0;
+  }
+
+  .footer-1{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 100px;
+  }
+
+  .footer-1 img{
+    width: 200px;
+  }
+
+  .footer-card-2{
+    gap: 100px;
+  }
+
+  .footer-card-2 svg{
+    width: 70px;
+  }
+
+  .footer-2{
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+    align-items: center;
+    padding: 0;
+  }
+
 }
 
 
